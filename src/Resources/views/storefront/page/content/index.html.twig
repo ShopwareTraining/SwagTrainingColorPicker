@@ -1,0 +1,10 @@
+{% sw_extends '@Storefront/storefront/page/content/index.html.twig' %}
+
+{% set pluginOptions = {
+    color: theme_config('sw-color-brand-primary')
+} %}
+
+{% block page_content %}
+    <div data-example-color-picker="true" data-example-color-picker-options='{{ pluginOptions|json_encode }}'></div>
+    {{ parent() }}
+{% endblock %}
