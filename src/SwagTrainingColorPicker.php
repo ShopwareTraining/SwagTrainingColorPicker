@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace SwagTrainingColorPicker;
+namespace SwagTraining\ColorPicker;
 
 use Shopware\Core\Framework\Plugin;
 
