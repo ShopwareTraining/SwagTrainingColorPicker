@@ -1,15 +1,15 @@
 {
-  "name": "swag/example-color-picker",
+  "name": "swag-training/color-picker",
   "description": "Example color-picker plugin",
   "type": "shopware-platform-plugin",
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Swag\\ExampleColorPicker\\": "src/"
+      "SwagTraining\\ColorPicker\\": "src/"
     }
   },
   "extra": {
-    "shopware-plugin-class": "Swag\\ExampleColorPicker\\SwagExampleColorPicker",
+    "shopware-plugin-class": "SwagTraining\\ColorPicker\\SwagTrainingColorPicker",
     "label": {
       "en-GB": "Example color-picker plugin"
     }
